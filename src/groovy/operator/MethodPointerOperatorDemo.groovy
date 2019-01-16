@@ -27,6 +27,7 @@ class MethodPointerOperatorDemo {
         println doSomethingAction("something action")
         println doSomethingAction(5)
 
+
     }
 
     //该transform方法获取列表中的每个元素并调用action它们上的闭包，返回一个新列表

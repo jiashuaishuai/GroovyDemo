@@ -32,6 +32,14 @@ class GStringsDemo {
         def m = ["key=$key": "letter ${key}"]
         assert m["key=a"] == null
 
+        //-------------------************最骚的用法****************************
+
+
+        def method = 'toString'
+        println new Date()."$method"()
+
+
+
 
     }
 
